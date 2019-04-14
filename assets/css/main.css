@@ -121,6 +121,11 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	a[href^="http://"], a[href^="https://"] {
+	    background: url(images/external.png) center right no-repeat;
+	    padding-right: 13px;
+	}
+
 	strong, b {
 		color: #787878;
 		font-weight: 400;
