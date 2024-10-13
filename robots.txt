@@ -6,3 +6,4 @@ Disallow: /README.md
 Disallow: /assets/
 Disallow: /privacy.html
 Disallow: /images
+Disallow: /new
