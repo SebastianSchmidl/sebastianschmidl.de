@@ -1317,6 +1317,7 @@
 					&:hover, &:active {
 						color: _palette(accent3) !important;
 					}
+					text-decoration: underline;
 				}
 			}
 
@@ -2018,7 +2019,7 @@
 					border: 0;
 
 					&:before {
-						background: _palette(accent1);
+						background: _palette(accent2);
 						color: _palette(fg-light);
 						content: '\f0c9';
 						display: block;

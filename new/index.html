@@ -52,13 +52,18 @@
 							<p>at the <a href="https://hpi.de" translate="no">Hasso Plattner Institute</a> in Potsdam.</p>
 						</header>
 						<span class="image"><img src="../images/profile.jpg" alt="" /></span>
+						<div class="container row aln-center" style="margin-top: 2em;">
+							<div class="align-center">
+								<h3>I am open to work and excited to build effective and efficient systems for the large-scale analysis of time series data.</h3>
+							</div>
+						</div>
 					</div>
 					<a href="#time-series-analytics" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- time-series-analytics -->
 				<section id="time-series-analytics" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="../images/thisisengineering.jpg" alt="" /></span>
+					<span class="image fit main"><img src="../images/thisisengineering.webp" alt="" loading="lazy"/></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -90,7 +95,7 @@
 
 			<!-- distributed-computing -->
 				<section id="distributed-computing" class="spotlight style2 right">
-					<span class="image fit main"><img src="../images/taylor-vick.jpg" alt="" /></span>
+					<span class="image fit main"><img src="../images/taylor-vick.webp" alt="" loading="lazy"/></span>
 					<div class="content">
 						<header>
 							<h2>Distributed Computing</h2>
@@ -103,7 +108,7 @@
 
 			<!-- data-profiling -->
 				<section id="data-profiling" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="../images/agence-olloweb.jpg" alt="" /></span>
+					<span class="image fit main bottom"><img src="../images/agence-olloweb.webp" alt="" loading="lazy"/></span>
 					<div class="content">
 						<header>
 							<h2>Data Profiling</h2>
@@ -118,7 +123,7 @@
 				<section id="projects" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>Selected Projects</h2>
+							<h2>Projects</h2>
 						</header>
 						<div class="box alt content">
 							<div class="row gtr-150 gtr-uniform">
@@ -127,31 +132,33 @@
 									<span class=""><img style="border-radius: 50%;" src="../images/timeeval.png" alt="" width="100px" height="100px" /></span>
 									<h3>TimeEval</h3>
 									<p>
-										I am the maintainer of TimeEval, an evaluation tool for time series anomaly detection algorithms.
+										I maintain TimeEval, an evaluation tool for time series anomaly detection algorithms.
 										It bundles more than 70 anomaly detection <a href="https://github.com/TimeEval/TimeEval-algorithms">algorithms</a> and thousands of time series <a href="https://timeeval.github.io/evaluation-paper/notebooks/Datasets.html">datasets</a>.
+										We have used TimeEval in a project with Rolls-Royce to evaluate the state-of-the-art in time series anomaly detection resulting in a comprehensive <a href="#pub-timeeval-evaluation">evaluation paper</a>.
 									</p>
 									<p>Python | Dask | Pytest | GitHub Actions | Docker | Bash | Linux</p>
 									<a href="https://timeeval.readthedocs.io" class="button">TimeEval Docs</a>
 								</section>
 								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class=""><img style="border-radius: 50%;" src="../images/scala.png" alt="" width="100px" height="100px" /></span>
+									<span class=""><img style="border-radius: 50%;" src="../images/scala.svg" alt="" width="100px" height="100px" /></span>
 									<h3>DISTOD</h3>
 									<p>
-										The DISTOD data profiling algorithm is a distributed algorithm to discover bidirectional order dependencies (bODs) from relational data.
-										It combines efficient pruning techniques for bOD candidates with a novel, reactive, and distributed search strategy outperforming all existing baselines.
+										I developed the DISTOD data profiling algorithm, a distributed algorithm to discover bidirectional order dependencies from relational data.
+										It combines efficient pruning techniques with a novel, reactive, and distributed search strategy outperforming all existing baselines.
+										The algorithm is published in the <a href="#pub-distod">VLDB Journal</a>.
 									</p>
 									<p>Scala | Akka | Python | Bash | Linux</p>
 									<a href="https://github.com/codelionx/distod" class="button"><i class="icon brands fa-github"></i> Code & Docs</a>
 								</section>
 								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class=""><img style="border-radius: 50%;" src="../images/aeon-logo-blue-2-transparent.png" alt="" width="100px" height="100px" /></span>
+									<span class=""><img style="border-radius: 50%;" src="../images/aeon-logo-blue.svg" alt="" width="100px" height="100px" /></span>
 									<h3>aeon</h3>
 									<p>I am a core developer for aeon, a scikit-learn compatible toolkit for all machine learning tasks on time series. I am responsible for the anomaly detection module.</p>
 									<p>Python | Sklearn | Numba | NumPy | Pytest | GitHub Actions</p>
 									<a href="https://aeon-toolkit.org" class="button">aeon Docs</a>
 								</section>
 								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-lock"></span>
+									<span class=""><img style="border-radius: 50%;" src="../images/lock.svg" alt="" width="100px" height="100px" /></span>
 									<h3>DendroTime (<emph>in development</emph>)</h3>
 									<p>DendroTime is a progressive algorithm to compute a hierarchical agglomerative clustering for large collections of time series subsequence anomalies.</p>
 									<p>Scala | Akka | JavaScript | React | D3</p>
@@ -168,13 +175,16 @@
 							<h2>
 								Write me an
 								<a href="&#77;&#97;&#105;&#76;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#115;&#101;&#98;&#97;&#115;&#116;&#105;&#97;&#110;&#115;&#99;&#104;&#109;&#105;&#100;&#108;&#46;&#100;&#101;">
-									Email
+									<i class="icon solid fa-envelope"></i> Email
 								</a>
-								or use
-								<a href="https://www.linkedin.com/in/sebastian-schmidl/"><i class="icon brands fa-linkedin"></i> LinkedIn</a> to contact me.
 							</h2>
 							<h2>
-								You can explore my software engineering project portfolio on <a href="http://github.com/CodeLionX"><i class="icon brands fa-github"></i> <span class="label">Github</span></a>.
+								Contact me on
+								<a href="https://www.linkedin.com/in/sebastian-schmidl/"><i class="icon brands fa-linkedin"></i> LinkedIn</a>
+							</h2>
+							<h2>
+								Explore my
+								<a href="http://github.com/CodeLionX"><i class="icon brands fa-github"></i> Github</a>
 							</h2>
 						</header>
 					</div>
@@ -205,15 +215,15 @@
 										<h3>Collaborations</h3>
 										For my research, I have collaborated with researchers and employees from the following institutions:
 										<ul>
-											<li><a href="https://www.uni-marburg.de/en">Philipps-Universität Marburg</a>, Germany</li>
-											<li><a href="https://www.rolls-royce.com">Rolls-Royce Deutschland Ltd & Co KG</a>, Germany</li>
-											<li><a href="https://www.uni-jena.de/en">Friedrich Schiller University Jena</a>, Germany</li>
-											<li><a href="https://www.dlr.de/en/dw">German Aerospace Center (DLR e.V.), Institute of Data Science</a>, Germany</li>
-											<li><a href="https://www.southampton.ac.uk">University of Southampton</a>, United Kingdom</li>
-											<li><a href="https://www.monash.edu">Monash University</a>, Australia</li>
-											<li><a href="https://www.irimas.uha.fr">IRIMAS, Université de Haute-Alsace</a>, France</li>
-											<li><a href="http://u2is.ensta-paris.fr">U2IS, ENSTA Paris</a>, France</li>
-											<li><a href="https://www.hu-berlin.de/en">Humboldt-Universität zu Berlin</a>, Germany</li>
+											<li><a translate="no" href="https://www.uni-marburg.de/en">Philipps-Universität Marburg</a>, Germany</li>
+											<li><a translate="no" href="https://www.rolls-royce.com">Rolls-Royce Deutschland Ltd & Co KG</a>, Germany</li>
+											<li><a translate="no" href="https://www.uni-jena.de/en">Friedrich Schiller University Jena</a>, Germany</li>
+											<li><a translate="no" href="https://www.dlr.de/en/dw">German Aerospace Center (DLR e.V.), Institute of Data Science</a>, Germany</li>
+											<li><a translate="no" href="https://www.southampton.ac.uk">University of Southampton</a>, United Kingdom</li>
+											<li><a translate="no" href="https://www.monash.edu">Monash University</a>, Australia</li>
+											<li><a translate="no" href="https://www.irimas.uha.fr">IRIMAS, Université de Haute-Alsace</a>, France</li>
+											<li><a translate="no" href="http://u2is.ensta-paris.fr">U2IS, ENSTA Paris</a>, France</li>
+											<li><a translate="no" href="https://www.hu-berlin.de/en">Humboldt-Universität zu Berlin</a>, Germany</li>
 										</ul>
 									</section>
 									<hr />
@@ -221,9 +231,9 @@
 										<h3>Reviewing</h3>
 										<p>My reviewing activities focused on software publications and reproducability:</p>
 										<ul>
-											<li>ACM SIGMOD 2023 Availability and Reproducibility</li>
-											<li>SoftwareX Journal 2023</li>
-											<li>ACM SIGMOD 2022 Availability</li>
+											<li translate="no">ACM SIGMOD 2023 Availability and Reproducibility</li>
+											<li translate="no">SoftwareX Journal 2023</li>
+											<li translate="no">ACM SIGMOD 2022 Availability</li>
 										</ul>
 									</section>
 								</section>
@@ -233,7 +243,7 @@
 							<div class="col-8 col-12-medium imp-medium">
 								<section>
 								<h3>Publications</h3>
-								<a href="#" class="image fit"><img src="../images/presenting.jpg" alt="" /></a>
+								<a href="#" class="image fit"><img src="../images/presenting.webp" alt="" loading="lazy"/></a>
 								<ul class="alt">
 									<li>
 										<span translate="no">
@@ -288,7 +298,7 @@
 										</span>
 										<a href="../assets/2022_wenig_timeeval.pdf">Download</a>.
 									</li>
-									<li>
+									<li id="pub-timeeval-evaluation">
 										<span translate="no">
 											Sebastian Schmidl, Phillip Wenig, Thorsten Papenbrock:
 											<b>Anomaly Detection in Time Series: A Comprehensive Evaluation.</b>
@@ -297,7 +307,7 @@
 										</span>
 										<a href="../assets/2022_schmidl_anomaly.pdf">Download</a>.
 									</li>
-									<li>
+									<li id="pub-distod">
 										<span translate="no">
 											Sebastian Schmidl, Thorsten Papenbrock:
 											<b>Efficient Distributed Discovery of Bidirectional Order Dependencies.</b>
@@ -339,42 +349,42 @@
 										<div class="col-6 col-6-medium col-12-small">
 											<h4>Seminars</h4>
 											<ul>
-												<li>Advanced Data Profiling (Master Seminar, 2024/2025)</li>
-												<li>Advanced Data Profiling (Master Seminar, 2023/2024)</li>
-												<li>CAST: Classifying Time Series Anomalies (Master Project, 2022/2023)</li>
-												<li>Large-Scale Time Series Analytics (Master Seminar, 2021/2022)</li>
-												<li>UltraMine - Scalable Analytics on Time Series Data (Bachelor Project, 2020/2021)</li>
-												<li>Sustainable Machine Learning on Edge Device Clusters (Master Seminar, 2020)</li>
+												<li><span translate="no">Advanced Data Profiling</span> (Master Seminar, 2024/2025)</li>
+												<li><span translate="no">Advanced Data Profiling</span> (Master Seminar, 2023/2024)</li>
+												<li><span translate="no">CAST: Classifying Time Series Anomalies</span> (Master Project, 2022/2023)</li>
+												<li><span translate="no">Large-Scale Time Series Analytics</span> (Master Seminar, 2021/2022)</li>
+												<li><span translate="no">UltraMine - Scalable Analytics on Time Series Data</span> (Bachelor Project, 2020/2021)</li>
+												<li><span translate="no">Sustainable Machine Learning on Edge Device Clusters</span> (Master Seminar, 2020)</li>
 											</ul>
 										</div>
 										<div class="col-6 col-6-medium col-12-small">
 											<h4>Lectures</h4>
 											<ul>
-												<li>Guest Lecture about Reproducibility for the <i>Lecture Series on Research Methods</i> (2024/2025)</li>
-												<li>Exercises for the <i>Data Integration</i> lecture (2024)</li>
-												<li>Guest Lecture about Order Dependencies for the <i>Data Profiling</i> course (2023)</li>
-												<li>Guest Lecture about distributed discovery of Order Dependencies for the <i>Data Profiling</i> course (2020/2021)</li>
+												<li>Guest Lecture about Reproducibility for the <i translate="no">Lecture Series on Research Methods</i> (2024/2025)</li>
+												<li>Exercises for the <i translate="no">Data Integration</i> lecture (2024)</li>
+												<li>Guest Lecture about Order Dependencies for the <i translate="no">Data Profiling</i> course (2023)</li>
+												<li>Guest Lecture about distributed discovery of Order Dependencies for the <i translate="no">Data Profiling</i> course (2020/2021)</li>
 											</ul>
 										</div>
 										<div class="col-6 col-6-medium col-12-small">
 											<h4>Supervised Master Thesis</h4>
 											<ul>
-												<li>DPQLEngine: Processing the Data Profiling Query Language (<b>Marcian Seeger</b> UMR, 2023, supervision assistance)</li>
-												<li>Correlation Anomaly Detection in High-Dimensional Time Series (<b>Niklas Köhnecke</b>, 2023)</li>
-												<li>HYPEX: Explainable Hyperparameter Optimization in Time Series Anomaly Detection (<b>Mats Pörschke</b>, 2022)</li>
-												<li>Time Series Anomaly Detection: An Aircraft Turbine Case Study (<b>Jacopo Roberto Nicosia</b>, 2022)</li>
-												<li>A2DB: A Reactive Database for Theta-Joins (<b>Julian Weise</b>, 2020, supervision assistance)</li>
+												<li><span translate="no">DPQLEngine: Processing the Data Profiling Query Language</span> (<b>Marcian Seeger</b> UMR, 2023, supervision assistance)</li>
+												<li><span translate="no">Correlation Anomaly Detection in High-Dimensional Time Series</span> (<b>Niklas Köhnecke</b>, 2023)</li>
+												<li><span translate="no">HYPEX: Explainable Hyperparameter Optimization in Time Series Anomaly Detection</span> (<b>Mats Pörschke</b>, 2022)</li>
+												<li><span translate="no">Time Series Anomaly Detection: An Aircraft Turbine Case Study</span> (<b>Jacopo Roberto Nicosia</b>, 2022)</li>
+												<li><span translate="no">A2DB: A Reactive Database for Theta-Joins</span> (<b>Julian Weise</b>, 2020, supervision assistance)</li>
 											</ul>
 										</div>
 										<div class="col-6 col-6-medium col-12-small">
 											<h4>Supervised Bachelor Thesis</h4>
 											<ul>
-												<li>Time Series Visualization and Interactive Exploration in UltraMine (<b>Ulrike Herwig</b>, 2023)</li>
-												<li>Time Series Anomaly Classification in UltraMine (<b>Grit Fessel</b>, 2021)</li>
-												<li>Univariate Time Series Anomaly Detection in UltraMine (<b>Siddeshkanth Logonathan</b>, 2021)</li>
-												<li>Multivariate Time Series Anomaly Detection in UltraMine (<b>David Matuschek</b>, 2021)</li>
-												<li>Distributed Computing for Time Series Analysis (<b>Rohan Sawahn</b>, 2021)</li>
-												<li>Incremental Time Series Analysis in Ultramine (<b>Richard Schulz</b>, 2021)</li>
+												<li translate="no">Time Series Visualization and Interactive Exploration in UltraMine (<b>Ulrike Herwig</b>, 2023)</li>
+												<li translate="no">Time Series Anomaly Classification in UltraMine (<b>Grit Fessel</b>, 2021)</li>
+												<li translate="no">Univariate Time Series Anomaly Detection in UltraMine (<b>Siddeshkanth Logonathan</b>, 2021)</li>
+												<li translate="no">Multivariate Time Series Anomaly Detection in UltraMine (<b>David Matuschek</b>, 2021)</li>
+												<li translate="no">Distributed Computing for Time Series Analysis (<b>Rohan Sawahn</b>, 2021)</li>
+												<li translate="no">Incremental Time Series Analysis in Ultramine (<b>Richard Schulz</b>, 2021)</li>
 											</ul>
 										</div>
 									</div>
@@ -389,7 +399,7 @@
 										<b translate="no">Efficient Distributed Discovery of Bidirectional Order Dependencies.</b>
 										Master Thesis.
 										Faculty of Digital Engineering, University of Potsdam, Potsdam.
-										<a href="assets/master-thesis.pdf">Download</a>.
+										<a href="../assets/master-thesis.pdf">Download</a>.
 									</li>
 									<li>
 										Schmidl, S. & Waack, J. (2019).
@@ -457,7 +467,7 @@
 						<li><a href="&#77;&#97;&#105;&#76;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#115;&#101;&#98;&#97;&#115;&#116;&#105;&#97;&#110;&#115;&#99;&#104;&#109;&#105;&#100;&#108;&#46;&#100;&#101;" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="https://www.linkedin.com/in/sebastian-schmidl/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<li><a href="http://github.com/CodeLionX" class="icon brands alt fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://stackoverflow.com/users/5384846/codelionx" class="icon brands alt fa-stack-overflow"><span class="label">Stackoverflow</span></a></li>
+						<!-- <li><a href="https://stackoverflow.com/users/5384846/codelionx" class="icon brands alt fa-stack-overflow"><span class="label">Stackoverflow</span></a></li> -->
 						<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
@@ -471,6 +481,7 @@
 							<a href="https://unsplash.com/@tvick">Taylor Vick</a>
 							on <a href="https://unsplash.com/">Unsplash</a>
 						</li>
+						<li><a href="../privacy.html">(old) Privacy Policy</a></li>
 					</ul>
 				</footer>
 
