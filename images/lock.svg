@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 1142.8571 1142.8572"
+   version="1.1"
+   sodipodi:docname="lock2.svg"
+   width="800"
+   height="800"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.23119423"
+     inkscape:cx="423.886"
+     inkscape:cy="404.42185"
+     inkscape:window-width="1456"
+     inkscape:window-height="888"
+     inkscape:window-x="61"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title1">scala-full-color</title>
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>scala-full-color</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 815.90958,428.81498 h -40.74757 v -81.4934 c 0,-112.46109 -91.27265,-203.73378 -203.73202,-203.73378 -112.46219,0 -203.73494,91.27269 -203.73494,203.73378 v 81.4934 h -40.74757 c -44.82052,0 -81.49223,36.67222 -81.49223,81.49339 v 407.46756 c 0,44.82145 36.67171,81.49342 81.49223,81.49342 h 488.9621 c 44.82061,0 81.49232,-36.67197 81.49232,-81.49342 V 510.30837 c 0,-44.82117 -36.67171,-81.49339 -81.49232,-81.49339 z M 571.42999,795.53555 c -44.82344,0 -81.49514,-36.67194 -81.49514,-81.4934 0,-44.82145 36.6717,-81.4934 81.49514,-81.4934 44.82062,0 81.49223,36.67195 81.49223,81.4934 0,44.82146 -36.67161,81.4934 -81.49223,81.4934 z M 697.74283,428.81498 H 445.11424 v -81.4934 c 0,-69.67701 56.6376,-126.31486 126.31575,-126.31486 69.67532,0 126.31284,56.63785 126.31284,126.31486 z"
+     id="path2"
+     style="fill:#9a78f1;fill-opacity:1;stroke-width:40.7467" />
+</svg>
