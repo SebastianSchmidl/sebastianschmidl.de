@@ -52,7 +52,7 @@
 							<p>at the <a href="https://hpi.de" translate="no">Hasso Plattner Institute</a> in Potsdam.</p>
 						</header>
 						<span class="image"><img src="../images/profile.jpg" alt="" /></span>
-						<div class="container row aln-center" style="margin-top: 2em;">
+						<div class="container aln-center" style="margin-top: 2em;">
 							<div class="align-center">
 								<h3>I am open to work and excited to build effective and efficient systems for the large-scale analysis of time series data.</h3>
 							</div>
@@ -74,18 +74,20 @@
 									</header>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
+									<p>
+										Time series datasets are particularly challenging for data engineering and analytics due to their size, recording speed and complex nature.
+										They are also a dominant form of data in statistics, sciences, and engineering.
+										I focus on the advancement of subsequence anomaly detection and anomaly clustering techniques by employing more efficient and effective approaches.
+										For this purpose, I investigate and evaluate the state-of-the-art in time series research, design novel subsequence anomaly detection algorithms, and build automated and scalable systems for the management and analysis of massive corpora of time series data.
+									</p>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
+									<p>
+										Efficient and scalable time series analytics is the focus of my PhD thesis at the Hasso Plattner Institute in Potsdam, resulting in many publications and projects in this area.
+									</p>
+									<p>
+										Example projects: Comprehensive <a href="https://timeeval.github.io/evaluation-paper/">evaluation of time series anomaly detection algorithms</a>, <a href="https://github.com/hpi-Information-Systems/autotsad">AutoTSAD</a>, <a href="https://github.com/hpi-information-systems/hypex">HYPEX</a>, <a href="https://www.uni-marburg.de/en/fb12/research-groups/big_data_analytics/projects/akita">AKITA</a> (with Rolls-Royce), DendroTime (with DLR, in development).
+									</p>
 								</div>
 							</div>
 						</div>
@@ -101,7 +103,21 @@
 							<h2>Distributed Computing</h2>
 							<p>Solving computationally complex problems in distributed computing environments.</p>
 						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<p>
+							I investigate computationally complex problems and how they can be solved in a distributed environment.
+							Complex problems are prevalent in both data engineering and data analytics.
+							The majority of existing solutions for data-centric problems lack efficiency, scalability, robustness, and elasticity.
+							These deficiencies, I believe, can be addressed through distributed computing.
+							I am especially interested in actor programming, which allows building fault-tolerant, elastic, and shared-nothing systems.
+						</p>
+						<p>
+							Distributed computing was the focus of my master's studies at the Hasso Plattner Institute in Potsdam, Germany.
+							The courses I took at HPI included <i>Distributed Data Management</i>, <i>Reliable Distributed Systems Engineering</i>, <i>Actor Database Systems</i>, <i>Methods of Cloud Computing</i> and many others.
+							For my master's thesis, I developed a distributed and reactive algorithm to discover bidirectional order dependencies in relational data, which was <a href="#pub-distod">published in the VLDB Journal</a>.
+						</p>
+						<p>
+							Example projects: <a href="https://github.com/codelionx/distod">DISTOD</a>, <a href="https://github.com/timeeval/timeeval">TimeEval</a>, <a href="https://github.com/CodeLionX/actordb">ActorDB</a>.
+						</p>
 					</div>
 					<a href="#data-profiling" class="goto-next scrolly">Next</a>
 				</section>
@@ -114,7 +130,19 @@
 							<h2>Data Profiling</h2>
 							<p>Developing efficient algorithms to extract metadata from relational datasets.</p>
 						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<div class=""></div>
+						<p>
+							Profiling data to determine metadata about a given dataset is an important and frequent activity of any IT professional and researcher, and is necessary for various use-cases.
+							It encompasses a vast array of methods to examine datasets and produce metadata.
+							For example, data profiling is used to understand the structure of a dataset, identify data quality issues, monitor data quality, prepare data for analysis, and optimize SQL queries in database management systems.
+							There is a considerable amount of research in this area.
+							However, data profiling application areas hardly use any modern data profiling techniques.
+							Thus, the current state of data profiling research unfortunately fails to address the practical application needs.
+						</p>
+						<p>
+							I am particularly interested in efficient and scalable methods to <i>discover order dependencies</i>, and solving the profiling-and-application-disconnect with a novel <i>data profiling engine and query language (DPQL)</i>.
+						</p>
+						<p>Example projects: <a href="https://github.com/codelionx/distod">DISTOD</a>, <a href="https://www.uni-marburg.de/en/fb12/research-groups/big_data_analytics/projects/metaserve">Metaserve (DPQL)</a></p>
 					</div>
 					<a href="#projects" class="goto-next scrolly">Next</a>
 				</section>
@@ -127,41 +155,58 @@
 						</header>
 						<div class="box alt content">
 							<div class="row gtr-150 gtr-uniform">
-								<section class="col-6 col-6-medium col-12-xsmall">
+								<section class="col-6 col-6-medium col-12-xsmall flex-column">
 									<!-- <span class="icon solid alt major fa-chart-area"></span> -->
-									<span class=""><img style="border-radius: 50%;" src="../images/timeeval.png" alt="" width="100px" height="100px" /></span>
-									<h3>TimeEval</h3>
+									<div>
+										<img style="border-radius: 50%;" src="../images/timeeval.png" alt="" width="100px" height="100px" />
+										<h3>TimeEval</h3>
+									</div>
 									<p>
 										I maintain TimeEval, an evaluation tool for time series anomaly detection algorithms.
 										It bundles more than 70 anomaly detection <a href="https://github.com/TimeEval/TimeEval-algorithms">algorithms</a> and thousands of time series <a href="https://timeeval.github.io/evaluation-paper/notebooks/Datasets.html">datasets</a>.
-										We have used TimeEval in a project with Rolls-Royce to evaluate the state-of-the-art in time series anomaly detection resulting in a comprehensive <a href="#pub-timeeval-evaluation">evaluation paper</a>.
+										We have used TimeEval in a project with Rolls-Royce to evaluate the state-of-the-art in time series anomaly detection resulting in a comprehensive <a href="#pub-timeeval-evaluation">evaluation paper (pVLDB)</a>.
 									</p>
 									<p>Python | Dask | Pytest | GitHub Actions | Docker | Bash | Linux</p>
-									<a href="https://timeeval.readthedocs.io" class="button">TimeEval Docs</a>
+									<p><a href="https://timeeval.readthedocs.io" class="button">TimeEval Docs</a></p>
 								</section>
-								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class=""><img style="border-radius: 50%;" src="../images/scala.svg" alt="" width="100px" height="100px" /></span>
-									<h3>DISTOD</h3>
+								<section class="col-6 col-6-medium col-12-xsmall flex-column">
+									<div>
+										<img style="border-radius: 50%;" src="../images/scala.svg" alt="" width="100px" height="100px" />
+										<h3>DISTOD</h3>
+									</div>
 									<p>
 										I developed the DISTOD data profiling algorithm, a distributed algorithm to discover bidirectional order dependencies from relational data.
 										It combines efficient pruning techniques with a novel, reactive, and distributed search strategy outperforming all existing baselines.
 										The algorithm is published in the <a href="#pub-distod">VLDB Journal</a>.
 									</p>
 									<p>Scala | Akka | Python | Bash | Linux</p>
-									<a href="https://github.com/codelionx/distod" class="button"><i class="icon brands fa-github"></i> Code & Docs</a>
+									<p><a href="https://github.com/codelionx/distod" class="button"><i class="icon brands fa-github"></i> Code & Docs</a></p>
 								</section>
-								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class=""><img style="border-radius: 50%;" src="../images/aeon-logo-blue.svg" alt="" width="100px" height="100px" /></span>
-									<h3>aeon</h3>
-									<p>I am a core developer for aeon, a scikit-learn compatible toolkit for all machine learning tasks on time series. I am responsible for the anomaly detection module.</p>
+								<section class="col-6 col-6-medium col-12-xsmall flex-column">
+									<div>
+										<img style="border-radius: 50%;" src="../images/aeon-logo-blue.svg" alt="" width="100px" height="100px" />
+										<h3>aeon</h3>
+									</div>
+									<p>
+										I am a core developer for aeon, a scikit-learn compatible toolkit for all machine learning tasks on time series.
+										I am responsible for the creation and maintenance of the anomaly detection module; and I contribute to the large collection of elastic time series distance measures.
+										We presented aeon in a <a href="#pub-aeon-tutorial">tutorial at ECML PKDD</a>.
+									</p>
 									<p>Python | Sklearn | Numba | NumPy | Pytest | GitHub Actions</p>
-									<a href="https://aeon-toolkit.org" class="button">aeon Docs</a>
+									<p><a href="https://aeon-toolkit.org" class="button">aeon Docs</a></p>
 								</section>
-								<section class="col-6 col-6-medium col-12-xsmall">
-									<span class=""><img style="border-radius: 50%;" src="../images/lock.svg" alt="" width="100px" height="100px" /></span>
-									<h3>DendroTime (<emph>in development</emph>)</h3>
-									<p>DendroTime is a progressive algorithm to compute a hierarchical agglomerative clustering for large collections of time series subsequence anomalies.</p>
+								<section class="col-6 col-6-medium col-12-xsmall flex-column">
+									<div>
+										<img style="border-radius: 50%;" src="../images/lock.svg" alt="" width="100px" height="100px" />
+										<h3>DendroTime (<emph>in development</emph>)</h3>
+									</div>
+									<p>
+										DendroTime is a progressive algorithm to compute a hierarchical agglomerative clustering for large collections of time series subsequence anomalies.
+										Its anytime behavior allows the user to interrupt the clustering process early and still obtain a meaningful solution.
+										I develop the algorithm in cooperation with the German Aerospace Center (DLR).
+									</p>
 									<p>Scala | Akka | JavaScript | React | D3</p>
+									<p><a class="button hidden"></a></p>
 								</section>
 							</div>
 						</div>
@@ -245,7 +290,7 @@
 								<h3>Publications</h3>
 								<a href="#" class="image fit"><img src="../images/presenting.webp" alt="" loading="lazy"/></a>
 								<ul class="alt">
-									<li>
+									<li id="pub-aeon-tutorial">
 										<span translate="no">
 											Anthony Bagnall, Matthew Middlehurst, Germain Forestier, Ali Ismail-Fawaz, Antoine Guillaume, David Guijo-Rubio, Arik Ermshaus, Patrick Schäfer, Thorsten Papenbrock, Phillip Wenig, Sebastian Schmidl:
 											<b>An Introduction to Machine Learning from Time Series.</b>
@@ -369,6 +414,7 @@
 										<div class="col-6 col-6-medium col-12-small">
 											<h4>Supervised Master Thesis</h4>
 											<ul>
+												<li><span translate="no">Detection of Subsequence Anomalies in Univariate Time Series with Convolutional Kernels</span> (<b>Stefan Spangenberg</b>, 2025)</li>
 												<li><span translate="no">DPQLEngine: Processing the Data Profiling Query Language</span> (<b>Marcian Seeger</b> UMR, 2023, supervision assistance)</li>
 												<li><span translate="no">Correlation Anomaly Detection in High-Dimensional Time Series</span> (<b>Niklas Köhnecke</b>, 2023)</li>
 												<li><span translate="no">HYPEX: Explainable Hyperparameter Optimization in Time Series Anomaly Detection</span> (<b>Mats Pörschke</b>, 2022)</li>

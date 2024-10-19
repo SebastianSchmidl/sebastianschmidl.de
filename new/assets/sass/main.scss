@@ -277,6 +277,16 @@
 		text-align: right;
 	}
 
+	.hidden {
+		visibility: hidden;
+	}
+
+	.flex-column {
+		@include vendor('display', 'flex');
+		@include vendor('justify-content', 'space-between');
+		@include vendor('flex-direction', 'column');
+	}
+
 /* Loader */
 
 	// Spinner
@@ -1223,7 +1233,7 @@
 				height: 101%;
 				padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
 				top: 0;
-				width: 28em;
+				width: 38em;
 			}
 		}
 
@@ -1717,7 +1727,7 @@
 				&.left, &.right {
 					.content {
 						padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
-						width: 25em;
+						width: 34em;
 					}
 				}
 			}
@@ -2127,7 +2137,7 @@
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: 0 1em;
 			}
 
 		/* Spotlight */

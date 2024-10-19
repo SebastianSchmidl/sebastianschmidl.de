@@ -229,6 +229,25 @@ pre code {
   text-align: right;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+.flex-column {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 /* Loader */
 @-moz-keyframes spinner-show {
   0% {
@@ -2566,7 +2585,7 @@ input[type=button]:disabled,
   height: 101%;
   padding: 6em 3em;
   top: 0;
-  width: 28em;
+  width: 38em;
 }
 .spotlight.left .content {
   border-right-width: 0.35em;
@@ -2995,7 +3014,7 @@ body.is-touch #banner {
   }
   .spotlight.left .content, .spotlight.right .content {
     padding: 4.5em 2.5em;
-    width: 25em;
+    width: 34em;
   }
   /* Wrapper */
   .wrapper {
@@ -3349,7 +3368,7 @@ body.is-touch #banner {
   input[type=reset],
   input[type=button],
   .button {
-    padding: 0;
+    padding: 0 1em;
   }
   /* Spotlight */
   .spotlight .image.main {
