@@ -155,6 +155,7 @@
 		border-bottom: dotted 1px;
 		color: _palette(accent1);
 		text-decoration: none;
+		font-weight: _font(weight-bold);
 
 		&:hover {
 			color: _palette(accent1) !important;
@@ -1327,7 +1328,7 @@
 					&:hover, &:active {
 						color: _palette(accent3) !important;
 					}
-					text-decoration: underline;
+					border-bottom: dotted 1px;
 				}
 			}
 

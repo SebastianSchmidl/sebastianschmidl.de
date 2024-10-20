@@ -111,6 +111,7 @@ a {
   border-bottom: dotted 1px;
   color: #a076f9;
   text-decoration: none;
+  font-weight: 300;
 }
 a:hover {
   color: #a076f9 !important;
@@ -2651,7 +2652,7 @@ body.is-touch .spotlight {
   background: #a076f9;
 }
 .wrapper.style2 h1 a, .wrapper.style2 h2 a, .wrapper.style2 h3 a, .wrapper.style2 h4 a, .wrapper.style2 h5 a {
-  text-decoration: underline;
+  border-bottom: dotted 1px;
 }
 .wrapper.style2 h1 a:hover, .wrapper.style2 h1 a:active, .wrapper.style2 h2 a:hover, .wrapper.style2 h2 a:active, .wrapper.style2 h3 a:hover, .wrapper.style2 h3 a:active, .wrapper.style2 h4 a:hover, .wrapper.style2 h4 a:active, .wrapper.style2 h5 a:hover, .wrapper.style2 h5 a:active {
   color: #d7bbf5 !important;
